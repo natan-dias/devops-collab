@@ -1,5 +1,7 @@
 # DEVOPS-COLLAB
 
+![banner](./DEVOPS%20COLLAB.png)
+
 [README ENGLISH VERSION](./README_EN.md)
 
 Repositório para colaboração e para compartilhar conhecimento
