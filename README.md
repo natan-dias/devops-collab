@@ -1,13 +1,15 @@
-# devops-collab
+# DEVOPS-COLLAB
 
-Devops repo for collaboration and knowledge share.
+[README ENGLISH VERSION](./README_EN.md)
 
-## Objectives
+Repositório para colaboração e para compartilhar conhecimento
 
-Collaborate with knowledge, information, news and docs about devops culture and frameworks.
+## Objetivos
 
-Please, visit each folder to get more information about them. All folders must have their own README file with instructions about how to use, collaborate and improve.
+Colaborar com informações, novidades, documentações e conhecimentos sobre a cultura devops e frameworks.
 
-## Contribute
+Por favor, visite cada pasta para mais informações. Cada pasta deve ter seu próprio arquivo README com instruções sobre utilização, colaboração e melhorias.
 
-I will keep CONTRIBUTE.md up to date. Please, follow the standards.
+## Contribua
+
+Vou manter o arquivo CONTRIBUTE.md atualizado. Por favor, siga os padrões estabelecidos.
