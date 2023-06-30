@@ -1,8 +1,21 @@
-# Kustomize validation script
+---
+layout: post
+title: Kustomize Validation Script
+subtitle: A quick script to validate kustomize and kubernetes manifests.
+#cover-img: /assets/img/post-img/k8s.png
+thumbnail-img: /assets/img/post-img/k8s.png
+#share-img: /assets/img/path.jpg
+tags: [devops, kubernetes, english posts]
+gh-repo: natan-dias/devops-collab
+gh-badge: [star, follow, watch]
+---
 
 This script is just an easy way to check folders and to validate your kustomization setup.
 
-## Requeriments
+[README PORTUGUESE VERSION](https://github.com/natan-dias/devops-collab/tree/main/kustomize-validate/README_PT.md)
+
+
+## Requirements
 
 + Python
 + [kustomize](https://kubectl.docs.kubernetes.io/installation/kustomize/binaries/)
