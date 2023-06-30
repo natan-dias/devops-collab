@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment)
+
 # DEVOPS-COLLAB
 
 ![banner](/DEVOPS-COLLAB.png)
