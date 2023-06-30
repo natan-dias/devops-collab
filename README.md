@@ -1,17 +1,17 @@
 # DEVOPS-COLLAB
 
-![banner](./DEVOPS%20COLLAB.png)
+![banner](/DEVOPS-COLLAB.png)
 
-[README ENGLISH VERSION](./README_EN.md)
+[README PORTUGUESE VERSION](/README_PT.md)
 
-Repositório para colaboração e para compartilhar conhecimento
+Devops repo for collaboration and knowledge share.
 
-## Objetivos
+## Objectives
 
-Colaborar com informações, novidades, documentações e conhecimentos sobre a cultura devops e frameworks.
+Collaborate with knowledge, information, news and docs about devops culture and frameworks.
 
-Por favor, visite cada pasta para mais informações. Cada pasta deve ter seu próprio arquivo README com instruções sobre utilização, colaboração e melhorias.
+Please, visit each folder to get more information about them. All folders must have their own README file with instructions about how to use, collaborate and improve.
 
-## Contribua
+## Contribute
 
-Vou manter o arquivo CONTRIBUTE.md atualizado. Por favor, siga os padrões estabelecidos.
+I will keep CONTRIBUTE.md up to date. Please, follow the standards.

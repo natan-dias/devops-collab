@@ -1,43 +1,44 @@
 # Kustomize validation script
 
-[README ENGLISH VERSION](./README%20_EN.md)
+[README PORTUGUESE VERSION](./README_PT.md)
 
-Este script é apenas uma forma mais fácil de verificar múltiplas pastas e validar se as configurações do seu kustomization estão corretas. 
+This script is just an easy way to check folders and to validate your kustomization setup.
 
-## Requerimentos
+## Requirements
 
 + Python
 + [kustomize](https://kubectl.docs.kubernetes.io/installation/kustomize/binaries/)
 + [kubernetes-validate](https://github.com/willthames/kubernetes-validate)
 
-## Como utilizar
+## How to use
 
-O script pode ser colocado em qualquer lugar, mas preferencialmente na pasta no mesmo nível do seu serviço ou stack. Neste exemplo, o serviço tem o nome de "webserver-example" e o overlay seria o "test-web". Caso queira, basta alterar a variável LOCAL do script. 
+The script can be placed anywhere, but preferably in the folder at the same level as your service or stack. In this example, the service is named "webserver-example" and the overlay would be "test-web". If you want, just change the script's LOCAL variable.
 
-Para rodar o script, basta utilizar via linha de comando:
+Just run via CLI:
 
 > ./k8s-validate.sh test-web
 
-A API VERSION pode ser alterada ou pode ser obtida a partir do comando CURL, utilizando a variável api_version. Para isto, você terá que colocar a url do seu cluster kubernetes para obter esta informação diretamente do seu cluster.
 
-O script vai gerar arquivos YAML provenientes do seu kustomize build, seguindo o padrão:
+The API VERSION variable can be changed or can be obtained from the CURL command, using the api_version variable. For this, you will have to put the url of your kubernetes cluster to obtain this information directly from your cluster.
+
+The script will generate the YAML files from your kustomize build, as the following pattern:
 
 > service.env.yaml
 
-Este arquivo gerado pelo kustomize build vai ser testado pelo módulo kustomize-validate utilizando a variável API_VERSION que você selecionar (ou aquela obtida pelo seu cluster).
+This build file will be tested against the API_VERSION variable by the kustomize-validate module.
 
-## Contribua
+## Contribute
 
-Caso queira adicionar uma nova feature, encontre algum bug ou tenha alguma sugestão de melhoria, favor abrir uma Issue e criar um Pull Request com as modificações. Peço a gentilza de seguir o seguinte padrão:
+To add new features, report a bug or improvements, please create an Issue and a Pull Request. I just kindly ask you to follow this standards:
 
 + BUGS
 
-Criar um branch com a tag bug:
+Create a branch with the tag BUG:
 
-> bug-SEU-BRANCH
+> bug-YOUR-BRANCH
 
-+ FEATURE e Melhorias
++ FEATURE AND IMPROVEMENTS
 
-Criar um branch com a tag feature:
+Create a branch with the tag FEATURE:
 
-> feature-SEU-BRANCH
+> feature-YOUR-BRANCH
