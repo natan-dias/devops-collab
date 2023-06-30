@@ -174,7 +174,7 @@ exclude:
 
 # Build settings
 #theme: minima
-theme: beautiful-jekyll-theme
+remote-theme: beautiful-jekyll-theme
 plugins:
   - jekyll-feed
   - jekyll-paginate

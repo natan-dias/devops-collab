@@ -9,7 +9,7 @@ OLD_config.yaml
 .DS_Store
 Thumbs.db
 ehthumbs.db
-
+Gemfile
 Gemfile.lock
 
 beautiful-jekyll-theme-*.gem
