@@ -1,18 +1,16 @@
 ---
 layout: post
-title: Kustomize Validation Script
-subtitle: A quick script to validate kustomize and kubernetes manifests.
+title: Kubernetes Validate
+subtitle: A quick way to validate YAML kubernetes manifests.
 #cover-img: /assets/img/post-img/k8s.png
 thumbnail-img: /assets/img/post-img/k8s.png
 #share-img: /assets/img/path.jpg
-tags: [devops, kubernetes, english posts]
+tags: [devops, kubernetes, english posts, github]
 gh-repo: natan-dias/devops-collab
 gh-badge: [star, follow, watch]
 ---
 
-This script is just an easy way to check folders and to validate your kustomization setup.
-
-[README PORTUGUESE VERSION](https://github.com/natan-dias/devops-collab/tree/main/kustomize-validate/README_PT.md)
+This method is just an easy way to check folders and to validate your kustomization setup.
 
 
 ## Requirements
@@ -23,33 +21,24 @@ This script is just an easy way to check folders and to validate your kustomizat
 
 ## How to use
 
-The script can be placed anywhere, but preferably in the folder at the same level as your service or stack. In this example, the service is named "webserver-example" and the overlay would be "test-web". If you want, just change the script's LOCAL variable.
+From Kubernetes-validate repo you can get the script to check your yaml files
 
 Just run via CLI:
 
-> ./k8s-validate.sh test-web
+> kubernetes-validate [-h] [-k KUBERNETES_VERSION] [--strict] [--version]
 
 
-The API VERSION variable can be changed or can be obtained from the CURL command, using the api_version variable. For this, you will have to put the url of your kubernetes cluster to obtain this information directly from your cluster.
+You can select a KUBERNETES VERSION to check for a specific API version.
 
-The script will generate the YAML files from your kustomize build, as the following pattern:
+### Examples
 
-> service.env.yaml
+```
+$ kubernetes-validate -k 1.13.6 examples/kuard-extra-property.yaml
+INFO  examples/kuard-extra-property.yaml passed against version 1.13.6
+```
 
-This build file will be tested against the API_VERSION variable by the kustomize-validate module.
+```
+$ kubernetes-validate --strict examples/kuard-extra-property.yaml
+ERROR examples/kuard-extra-property.yaml did not validate against version 1.16.0: spec.selector: Additional properties are not allowed ('unwanted' was unexpected)
+```
 
-## Contribute
-
-To add new features, report a bug or improvements, please create an Issue and a Pull Request. I just kindly ask you to follow this standards:
-
-+ BUGS
-
-Create a branch with the tag BUG:
-
-> bug-YOUR-BRANCH
-
-+ FEATURE AND IMPROVEMENTS
-
-Create a branch with the tag FEATURE:
-
-> feature-YOUR-BRANCH
