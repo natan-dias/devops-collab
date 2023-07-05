@@ -61,7 +61,7 @@ social-network-links:
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Kustomize Validate: "https://github.com/natan-dias/devops-collab/tree/main/kustomize-validate"
+    # - Kustomize Validate: "https://github.com/natan-dias/devops-collab/tree/main/kustomize-validate"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://natan-dias.github.io"
 
