@@ -62,6 +62,9 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     # - Kustomize Validate: "https://github.com/natan-dias/devops-collab/tree/main/kustomize-validate"
+    - Kubetools: https://github.com/collabnix/kubetools
+    - DevOps Collab Projects Repo: https://github.com/natan-dias/devops-collab-projects
+    - We Became what we Behold - HTML Game: https://github.com/natan-dias/wbwwb
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://natan-dias.github.io"
 
