@@ -3,7 +3,7 @@ layout: post
 title: SSH Tunnels - Local and Remote Port Forwarding (PT-BR)
 subtitle: Um guia visual sobre Túneis SSH
 #cover-img: /assets/img/post-img/k8s.png
-thumbnail-img: /assets/img/post-img/ssh-tunnels-post/diagrama02.png
+thumbnail-img: /assets/img/post-img/ssh-tunnels-post/diagrama02.jpg
 #share-img: /assets/img/path.jpg
 tags: [devops, sysadmin, PT-BR posts]
 gh-repo: natan-dias/devops-collab
@@ -43,7 +43,7 @@ A flag -L indica que estamos iniciando um encaminhamento de porta local. O que r
 
 Veja no diagrama abaixo:
 
-![diagrama01](/assets/img/post-img/ssh-tunnels-post/diagrama01.png)
+![diagrama01](/assets/img/post-img/ssh-tunnels-post/diagrama01.jpg)
 
 ## Local Port Forwarding com um Bastion Host
 
@@ -53,7 +53,7 @@ Pode não ser óbvio a princípio, mas o comando ssh -L permite encaminhar uma p
 ssh -L [local_addr:]local_port:remote_addr:remote_port [user@]sshd_addr
 ```
 
-![diagrama02](/assets/img/post-img/ssh-tunnels-post/diagrama02.png)
+![diagrama02](/assets/img/post-img/ssh-tunnels-post/diagrama02.jpg)
 
 Costumo usar o truque acima para chamar endpoints acessíveis a partir do bastion host, mas não do meu laptop (por exemplo, usando uma instância do EC2 com interfaces públicas e privadas para conectar-se a um cluster OpenSearch implantado totalmente em uma VPC).
 
@@ -75,7 +75,7 @@ Exemplo:
 
 Assim fica o Remote Port Forwarding em um diagrama:
 
-![diagrama03](/assets/img/post-img/ssh-tunnels-post/diagrama03.png)
+![diagrama03](/assets/img/post-img/ssh-tunnels-post/diagrama03.jpg)
 
 ## Remote Port Forwarding de uma Network Privada
 
@@ -87,7 +87,7 @@ ssh -R [remote_addr:]remote_port:local_addr:local_port [user@]gateway_addr
 
 Parece quase idêntico ao túnel SSH remoto simples, mas o par *local_addr:local_port* torna-se o endereço de um dispositivo na rede privada. Aqui está como isso pode ser representado em um diagrama:
 
-![diagrama04](/assets/img/post-img/ssh-tunnels-post/diagrama04.png)
+![diagrama04](/assets/img/post-img/ssh-tunnels-post/diagrama04.jpg)
 
 Como normalmente uso meu laptop como um thin client e o desenvolvimento real ocorre em um servidor doméstico, confio em um encaminhamento de porta remoto quando preciso expor um serviço de desenvolvimento de um servidor doméstico à Internet pública e a única máquina com o acesso ao gateway é meu laptop.
 
