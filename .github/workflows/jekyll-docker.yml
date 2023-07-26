@@ -1,0 +1,28 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+    - name: Jekyll Deploy Test
+    # You may pin to the exact commit or the version.
+    # uses: PaulRosenthal/Jekyll-Deploy-Test-Action@fe8d549fe4f50c6a58d50f907aae3bbd65f91e1b
+      uses: PaulRosenthal/Jekyll-Deploy-Test-Action@v2
+      with:    
+        gemfile-location: /     
+        site-directory: / 
