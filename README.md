@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment)
+[![Github Actions CD](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment) [![Github Actions CI](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml/badge.svg?event=discussion_comment)](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml)
 
 # DEVOPS-COLLAB
 
