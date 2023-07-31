@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment) [![Jekyll site CI](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml)
+[![pages-build-deployment](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment) [![Jekyll site CI](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml) [![Rainforest QA](https://github.com/natan-dias/devops-collab/actions/workflows/rainforest-qa.yml/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/rainforest-qa.yml)
 
 # DEVOPS-COLLAB
 
@@ -10,7 +10,7 @@ Devops repo for collaboration and knowledge share.
 
 ## Objectives
 
-Collaborate with knowledge, information, news and docs about devops culture and frameworks.
+Collaborate with knowledge, information and news about devops culture and frameworks.
 
 Please, visit each folder to get more information about them. All folders must have their own README file with instructions about how to use, collaborate and improve.
 
