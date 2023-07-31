@@ -2,7 +2,7 @@ name: Rainforest QA
 # Only trigger, when the build workflow succeeded
 on:
   workflow_run:
-    workflows: ["pages-build-deployment "]
+    workflows: ["pages-build-deployment"]
     types:
       - completed
 
