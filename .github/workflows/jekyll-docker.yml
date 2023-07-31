@@ -17,11 +17,5 @@ jobs:
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
         
-    - name: Rainforest QA GitHub Action 
-      uses: rainforestapp/github-action@v3.2.3
-      with:
-        description: Test prod site
-        token: ${{ secrets.RAINFOREST_TOKEN }}
-        run_group_id: 15319
  
     
