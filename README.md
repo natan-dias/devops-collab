@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment) [![Jekyll site CI](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml) [![Rainforest QA](https://github.com/natan-dias/devops-collab/actions/workflows/rainforest-qa.yml/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/rainforest-qa.yml)
+[![pages-build-deployment](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/pages/pages-build-deployment) [![Jekyll site CI](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/natan-dias/devops-collab/actions/workflows/jekyll-docker.yml)
 
 # DEVOPS-COLLAB
 
